@@ -21,7 +21,7 @@ function Setting() {
           <label>Username</label>
           <input type="text" placeholder="enter username" />
           <label>Email</label>
-          <input type="email" placeholder="enter email" />
+          <input type="text" readOnly=" " placeholder="enter email" />
           <label>Password</label>
           <input type="password" placeholder="enter password" />
           <button className="settingSubmit">Update</button>
