@@ -1,5 +1,5 @@
 import "./setting.css";
-import Sidebar from "../../components/sidebar/Sidebar";
+import Sidebar from "../../component/sidebar/Sidebar";
 import settingImg from "../../assets/setting.jpg";
 function Setting() {
   return (

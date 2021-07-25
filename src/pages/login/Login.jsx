@@ -6,12 +6,15 @@ function Login() {
       <span className="loginTitle">Login</span>
       <form className="loginForm">
         <label>Email</label>
-        <input className="loginInput" type="text" placeholder="enter email"></input>
+        <input className="loginInput" type="text" readonly="" id="email" placeholder="enter email ..." />
         <label>Password</label>
-        <input className="loginInput" type="password" placeholder="enter Password"></input>
+        <input
+          className="loginInput"
+          type="password"
+          placeholder="enter Password..." />
         <button className="loginButton">Login</button>
       </form>
-      <button className="RegisterButton">Register</button>
+      <button className="loginRegisterButton">Register</button>
     </div>
   );
 }

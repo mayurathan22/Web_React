@@ -6,14 +6,29 @@ function Register() {
       <span className="registerTitle">Register</span>
       <form className="registerForm">
         <label>Username</label>
-        <input className="registerInput" type="text" placeholder="enter Username"/>
+        <input
+          className="registerInput"
+          readOnly=""
+          type="text"
+          placeholder="enter Username ..."
+        />
         <label>Email</label>
-        <input className="registerInput" type="text" placeholder="enter email" />
+        <input
+          className="loginInput"
+          type="text"
+          readonly=""
+          id="email"
+          placeholder="enter email ..."
+        />
         <label>Password</label>
-        <input className="registerInput" type="password" placeholder="enter Password"/>
+        <input
+          className="registerInput"
+          type="password"
+          placeholder="enter Password"
+        />
         <button className="registerButton">Register</button>
       </form>
-      <button className="loginButton">Login</button>
+      <button className="registerLoginButton">Login</button>
     </div>
   );
 }
